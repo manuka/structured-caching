@@ -1,0 +1,6 @@
+.eslintignore
+.eslintrc.js
+.github/
+.prettierrc.js
+jest.config.ts
+test/
