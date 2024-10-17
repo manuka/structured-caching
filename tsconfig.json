@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "noErrorTruncation": true,
+    "outDir": "./dist",
+    "paths": {
+      "@": ["src/index"],
+      "@/*": ["src/*"],
+      "&": ["test/index"],
+      "&/*": ["test/*"]
+    },
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2019"
+  },
+  "exclude": ["dist", "node_modules"]
+}
